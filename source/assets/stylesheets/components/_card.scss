@@ -1,0 +1,23 @@
+.about-card {
+  text-align: center;
+  padding: 5rem 6rem;
+  vertical-align: top;
+  position: relative;
+  max-width: 100%;
+  border-radius: 5px;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+}
+
+.about-card h1, h2, h3, p {
+  color: rgba(0,0,0,0.561);
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.1rem;
+  width: 100%;
+  font-size: 2em;
+  line-height: 1.375;
+  font-weight: 300;
+  background-color: ivory;
+}
