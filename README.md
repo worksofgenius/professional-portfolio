@@ -1,4 +1,4 @@
 
 # Professional Portfolio
 
-An airy portfolio created using Minuteman, hosted on Netlify.
+An airy portfolio containing my latest projects, created using Minuteman, and hosted on Netlify.
