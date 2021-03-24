@@ -3,6 +3,7 @@
 body {
   font-family: 'PT Sans', sans-serif;
   font-weight: 300;
+  word-wrap: break-word;
  }
  
 h1 {
@@ -23,3 +24,14 @@ h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
+
+/* Media Queries
+
+/* Small devices (tablets, 768px and up) 
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) 
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) 
+@media (min-width: @screen-lg-min) { ... } */
