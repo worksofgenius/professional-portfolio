@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <header>
     <!-- INSERT GOOGLE ANALYTICS HERE -->
 
     <meta charset="utf-8">
@@ -22,22 +22,20 @@
     <%= stylesheet_link_tag "app" %>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-  </head>
-
-  <body>
-    <%= yield %>
-    <%= javascript_include_tag "bundle" %>
-    <div class="footer">
-      <div class="footer-links">
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-      </div>
-      <div class="footer-copyright">
-        © 2021 Marisa N. Cassidy. All rights reserved.
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <%= yield %>
+          <%= javascript_include_tag "bundle" %>
+        </div>
       </div>
     </div>
-  </body>
+  </main>
+  <footer>
+    <div class="footer">
+      <p>© 2021 Marisa N. Cassidy. All rights reserved.</p>
+    </div>
+  </footer>
 </html>
