@@ -3,17 +3,18 @@
 body {
   font-family: 'PT Sans', sans-serif;
   font-weight: 300;
+  background-color: white;
   word-wrap: break-word;
  }
  
 h1 {
-  color: #FFFFFF;
+  color: black;
   font-family: sans-serif;
   font-weight: bold;
 }
 
 h2, h3, h4, h5, h6 {
-  color: #FFFFFF8F;
+  color: $gray;
   font-family: 'Raleway', sans-serif;
 }
 
