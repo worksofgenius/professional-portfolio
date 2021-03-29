@@ -1,24 +1,28 @@
 <div class="container">
   <div class="row justify-content-center">
     <div>
-      <img src="portfolio-logo.png" width="30%">
+      <%= image_tag("portfolio-logo.png") %>
       <h1>Marisa N. Cassidy</h1>
       <h2>Fullstack Developer, Project Manager</h2>
     </div>
     <div class="about-card">
       <div>
-        <p>I'm a fullstack developer, project manager, and writer. I blog at Works of Genius about life in Japan and coding.</p>
+        <h1>About</h1>
+        <br>
+        <h3>I'm a fullstack developer, project manager, and writer.<br><br> I blog at <%= link_to "Works of Genius", "https://www.worksofgenius.org" %> about life in Japan and coding.</h3>
       </div>
     </div>
     <div class="about-card">
       <div>
-        <h1>Testing words here</h1>
+        <h1>Projects</h1>
       </div>
     </div>
     <div class="about-card">
       <div>
         <h1>Contact</h1>
+        <br>
         <h2>Let's work together.</h2>
+        <br>
         <p>Insert form here</p>
       </div>
     </div>
