@@ -6,6 +6,7 @@ gem 'middleman-gh-pages'
 gem 'middleman-metaman'
 gem 'rake'
 gem 'rubocop'
+gem 'actionmailer'
 
 gem 'font-awesome-sass', '~> 5.13.0'
 
