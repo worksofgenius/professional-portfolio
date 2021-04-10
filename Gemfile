@@ -8,6 +8,7 @@ gem 'rake'
 gem 'rubocop'
 
 gem 'font-awesome-sass', '~> 5.13.0'
+gem 'material_icons'
 
 group :test do
   gem 'capybara'
