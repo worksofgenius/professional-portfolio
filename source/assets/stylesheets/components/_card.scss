@@ -4,10 +4,38 @@
   vertical-align: top;
   position: relative;
   max-width: 100%;
-  border-radius: 5px;
+  border-radius: 50% 20% / 10% 40%;
   margin: 50px;
   border: 0;
   font-size: 100%;
-  background: #fdfcfa;
+  background: #ffce85;
+  box-shadow: 0 0 15px rgba(0,0,0,0.09);
+}
+
+.projects-card {
+  text-align: center;
+  padding: 5rem 6rem;
+  vertical-align: top;
+  position: relative;
+  max-width: 100%;
+  border-radius: 50% 20% / 10% 40%;
+  margin: 50px;
+  border: 0;
+  font-size: 100%;
+  background: #ffefd6;
+  box-shadow: 0 0 15px rgba(0,0,0,0.09);
+}
+
+.contact-card {
+  text-align: center;
+  padding: 5rem 6rem;
+  vertical-align: top;
+  position: relative;
+  max-width: 100%;
+  border-radius: 50% 20% / 10% 40%;
+  margin: 50px;
+  border: 0;
+  font-size: 100%;
+  background: #ffdead;
   box-shadow: 0 0 15px rgba(0,0,0,0.09);
 }
