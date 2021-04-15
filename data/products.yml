@@ -1,5 +1,8 @@
 - name: Pantry
   description: Developed in less than four weeks, Pantry is a unique mobile web app that empowers households to reduce food waste. It was the headlining project launched at the largest Demo Day for Le Wagon Tokyo, on March 12, 2021. Simply scan the barcode of a food item to save its name, amount, and expiration date. If you’re struggling to remember expiration dates, receive reminders and search for recipes that use those ingredients. Save your favorite recipes to use again. Create shopping lists in Pantry and send it to your household’s group chat in LINE to facilitate communication about shopping needs. After shopping, add all purchased food items to Pantry directly from LINE by typing, “Pantry shopping done!” The app will be available for select users in the future.
+  role: 
+    - Project Manager
+    - Fullstack Developer
   image: pantrytile.png
   url: www.digitalpantry.me
   tags:
@@ -14,6 +17,9 @@
 
 - name: Share Care
   description: Built in two weeks, Share Care is an original web app that allows parents to enrich their child’s life with highly skilled caregivers. Life moves quickly—don’t waste time and space on your device downloading another beveled icon. Simply open your web browser, create an account and log in from your phone, tablet or desktop.
+  role: 
+    - Project Manager
+    - Fullstack Developer
   image: sharecaretile.png
   url: https://sharecarejapan.herokuapp.com/
   tags:
@@ -28,6 +34,8 @@
 
 - name: Cocktails
   description: Cocktails is a Ruby on Rails web app build in two weeks with a minimalist design. It allows the user to create, browse, edit, and delete original cocktails by accessing an API of ingredients. The user can upload an image to personalize their cocktail.
+  role: 
+    - Solo Developer
   image: cocktailstile.png
   url: https://rails-cocktail-webapp.herokuapp.com/cocktails
   tags:
@@ -42,6 +50,8 @@
 
 - name: Code From Home Tokyo
   description: Code from Home Tokyo is a chat bot that was created using the LINE Messaging API and Sinatra. Hosted on Heroku, the chat bot is an assistant that checks the local weather and locates coding events in Tokyo. It integrates the AI technology of IBM Watson to discuss any image uploaded by the user. It even responds to questions and comments from the user.
+  role: 
+    - Solo Developer
   image: linebottile.jpeg
   url: https://lin.ee/pzmqinhm
   tags:
@@ -52,6 +62,9 @@
 
 - name: International Mental Health Professionals, Japan
   description: As a board member, I took redesigned the decades-old International Mental Health Professionals Japan (IMHPJ) website to create a searchable database of therapists and used my SEO expertise to skyrocket the site’s ranking from the third page of the Google search results to number one.
+  role: 
+    - Consultant
+    - Project Manager
   image: imhpjtile.png
   url: http://www.imhpj.org/
   tags:
@@ -60,6 +73,8 @@
 
 - name: Icebreaker Randomizer
   description: This web app was launched in March 2020, when working from home became the new normal. It alleviates Zoom fatigue through 75 original prompts. Icebreaker Randomizer is free, fast, and adaptive. Currently, it is used in 6+ countries by leading NPOs, businesses, and educators.
+  role: 
+    - Solo Developer
   image: icebreakerrandomizertile.png
   url: https://worksofgenius.github.io/Icebreaker-Randomizer/
   tags:
@@ -70,6 +85,9 @@
 
 - name: Kitchen Cart
   description: Kitchen Cart connects local communities and food trucks in a marketplace mobile web app. Currently being developed.
+  role: 
+    - Project Manager
+    - Frontend Developer
   image: 
   url: 
   tags:
@@ -85,6 +103,9 @@
 
 - name: Kenko
   description: Kenko helps users find medical care in Tokyo in an accessible mobile web app. Currently being developed.
+  role: 
+    - Project Manager
+    - Frontend Developer
   image: 
   url: 
   tags:
