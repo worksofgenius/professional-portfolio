@@ -1,10 +1,11 @@
 <div class="container">
   <div class="row justify-content-center">
     <div class="intro">
-      <%= image_tag("portfolio-logo.png") %>
+      <%= image_tag("portfolio-logo.png", alt: "Fried egg-shaped logo") %>
       <h1>Marisa N. Cassidy</h1>
       <h2><s>Fullstack Developer &nbsp; Project Manager</s></h2>
     </div>
+
     <div class="about-card">
       <div>
         <h1>About</h1>
@@ -17,139 +18,35 @@
         </h3>
       </div>
     </div>
+
     <div class="projects-card">
       <div>
         <h1>Projects</h1>
         <br><br>
-        <section class="xop-section">
-          <div class="xop-wrapper">
-            <div class="xop-container">
-              <a class="project" href="#">
-                <figure>
-                  <%= image_tag("pantrytile.png") %>
-                  <figcaption>
-                    <div>
-                      <h3>Pantry</h3>
-                      <p class="cta">View project <i class="fas fa-chevron-right"></i></p>
-                    </div>
-                  </figcaption>
-                </figure>
-              </a>
-              <a class="project" href="#">
-                <figure>
-                  <%= image_tag("sharecaretile.png") %>
-                  <figcaption>
-                    <div>
-                      <h3>Share Care</h3>
-                      <p class="cta">View project <i class="fas fa-chevron-right"></i></p>
-                    </div>
-                  </figcaption>
-                </figure>
-              </a>
-              <a class="project" href="#">
-                <figure>
-                  <%= image_tag("portfolio-logo.png") %>
-                  <figcaption>
-                    <div>
-                      <h3>Cocktails</h3>
-                      <p class="cta">View project <i class="fas fa-chevron-right"></i></p>
-                    </div>
-                  </figcaption>
-                </figure>
-              </a>
-              <a class="project" href="#">
-                <figure>
-                  <%= image_tag("portfolio-logo.png") %>
-                  <figcaption>
-                    <div>
-                      <h3>IMHPJ</h3>
-                      <p class="cta">View project <i class="fas fa-chevron-right"></i></p>
-                    </div>
-                  </figcaption>
-                </figure>
-              </a>
-              <a class="project" href="#">
-                <figure>
-                  <%= image_tag("portfolio-logo.png") %>
-                  <figcaption>
-                    <div>
-                      <h3>Kitchen Cart</h3>
-                      <p class="cta">View project <i class="fas fa-chevron-right"></i></p>
-                    </div>
-                  </figcaption>
-                </figure>
-              </a>
-              <a class="project" href="#">
-                <figure>
-                  <%= image_tag("portfolio-logo.png") %>
-                  <figcaption>
-                    <div>
-                      <h3>KenKo</h3>
-                      <p class="cta">View project <i class="fas fa-chevron-right"></i></p>
-                    </div>
-                  </figcaption>
-                </figure>
-              </a>
-              <a class="project" href="#">
-                <figure>
-                  <%= image_tag("portfolio-logo.png") %>
-                  <figcaption>
-                    <div>
-                      <h3>Icebreaker Randomizer</h3>
-                      <p class="cta">View project <i class="fas fa-chevron-right"></i></p>
-                    </div>
-                  </figcaption>
-                </figure>
-              </a>
-              <a class="project" href="#">
-                <figure>
-                  <%= image_tag("portfolio-logo.png") %>
-                  <figcaption>
-                    <div>
-                      <h3>Code from Home - LINE Bot</h3>
-                      <p class="cta">View project <i class="fas fa-chevron-right"></i></p>
-                    </div>
-                  </figcaption>
-                </figure>
-              </a>
-              <a class="project" href="#">
-                <figure>
-                  <%= image_tag("portfolio-logo.png") %>
-                  <figcaption>
-                    <div>
-                      <h3>Giphy Search</h3>
-                      <p class="cta">View project <i class="fas fa-chevron-right"></i></p>
-                    </div>
-                  </figcaption>
-                </figure>
-              </a>
-              <a class="project" href="#">
-                <figure>
-                  <%= image_tag("portfolio-logo.png") %>
-                  <figcaption>
-                    <div>
-                      <h3>Icebreaker Randomizer Chrome Extension</h3>
-                      <p class="cta">View project <i class="fas fa-chevron-right"></i></p>
-                    </div>
-                  </figcaption>
-                </figure>
-              </a>
-              <a class="project" href="#">
-                <figure>
-                  <%= image_tag("portfolio-logo.png") %>
-                  <figcaption>
-                    <div>
-                      <h3>Untitled NPO Project</h3>
-                      <p class="cta">View project <i class="fas fa-chevron-right"></i></p>
-                    </div>
-                  </figcaption>
-                </figure>
-              </a>
-            </div>
+        <div class="portfolio-container">
+          <div class="portfolio-card">
+            <% data.products.each do |product| %>
+              <div class="portfolioImage">
+                <%= product.image %>
+                <div onClick="window.open(url(<% product.url %>), '_blank')" class="middle">
+                  <p>View</p>
+                </div>
+              </div>
+              <div class="portfolioContent">
+                <h5 class="cardCategory"><%= product.role %></h5>
+                <h3 class="portfolioTitle"><%= product.name %></h3>
+                <p><%= product.description %></p>
+                <br><br>
+                <% product.tags.each do |tag| %>
+                  <p class="tags"><%= tag %></p>
+                <% end %>
+              </div>
+            <% end %>
           </div>
-        </section>
+        </div>
       </div>
     </div>
+
     <div class="stack-card">
       <div>
         <h1>Tech Stack</h1>
@@ -164,6 +61,7 @@
         <p>Git &nbsp; GitHub &nbsp; Figma &nbsp; Sketch &nbsp; WordPress</p>
       </div>
     </div>
+
     <div class="contact-card">
       <div>
         <h1>Contact</h1>
