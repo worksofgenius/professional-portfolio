@@ -16,10 +16,9 @@ img {
   height: 100%;
   flex-wrap: wrap;
   margin: 0 0 50px 0;
-  border: 1px solid rgba(111, 197, 231, 0.336);
   max-width: 800px;
   min-width: 200px;
-  padding: 20px 20px;
+  padding: 20px 40px;
   flex-shrink: 2;
 }
 
@@ -35,19 +34,17 @@ img {
   margin: 10px 10px;
   position: relative;
   flex-shrink: 2;
-  -webkit-box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.48); 
-  box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.48);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2); 
 }
 
 .portfolioImage:hover img {
-  cursor: pointer;
-  background-color: black;
-  opacity: 0.4;
+  filter: grayscale(100%)
 }
 
 .portfolioImage:hover .middle {
   opacity: 1;
   display: block;
+  transition: .5s ease;
 }
 
 .portfolioContent {
@@ -57,36 +54,32 @@ img {
   height: 100%;
   max-height: 300px;
   flex-shrink: 2;
-  /* border: 0.1px solid rgb(225, 221, 221); */
-}
-
-.portfolioContent p {
-  font-size: 0.8rem;
 }
 
 .middle {
-  opacity: 1;
+  transition: .5s ease;
+  opacity: 0;
   position: absolute;
-  background-color: rgb(24, 104, 223);
-  color: white;
-  left: 41%;
-  top: 46%;
-  width: 75px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   text-align: center;
-  display: none;
-  cursor: pointer;
-  border-radius: 5px;
+  font-size: 16px;
+  color: $orange;
 }
 
 .tags {
-  background-color: rgb(114, 179, 194);
   display: inline-block;
   padding: 5px;
-  color: white;
-  border-radius: 3px;
+  color: $blue;
+  text-transform: uppercase;
+  font: 0.75em sans-serif;
+  font-weight: 600;
 }
 
 .cardCategory {
   text-transform: uppercase;
-  color: rgb(122, 139, 164);
+  color: $blue;
+  font-weight: 600;
 }
