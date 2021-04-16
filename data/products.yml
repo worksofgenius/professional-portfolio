@@ -1,24 +1,18 @@
 - name: Pantry
-  description: Pantry is a mobile web app that empowers households to reduce food waste. Scan the barcode of a food item to save its name, amount, and expiration date. Save your favorite recipes and manage shopping lists with LINE integration. Built in 2 weeks.
-  role: 
-    - Project Manager
-    - Fullstack Developer
+  description: A mobile web app that empowers households to reduce food waste. Scan the barcode of a food item to save its name, amount, and expiration date. Save favorite recipes and manage shopping lists with LINE integration. Built in 2 weeks.
+  role: Project Manager
   image: pantrytile.png
-  url: www.digitalpantry.me
+  url: https://www.digitalpantry.me
   tags:
     - Rails
     - HTML 
     - SCSS
-    - JavaScript
     - LINE API
-    - OCR
     - Heroku
 
 - name: Share Care
-  description: Share Care is a mobile web app that allows parents to enrich their child’s life with highly skilled caregivers. Built in 2 weeks.
-  role: 
-    - Project Manager
-    - Fullstack Developer
+  description: A mobile web app that allows parents to enrich their child’s life with highly skilled caregivers. Built in 2 weeks.
+  role: Project Manager
   image: sharecaretile.png
   url: https://sharecarejapan.herokuapp.com/
   tags:
@@ -26,14 +20,11 @@
     - HTML 
     - SCSS
     - JavaScript
-    - Cloudinary
-    - Mapbox API
     - Heroku
 
 - name: Cocktails
-  description: Cocktails is web app that allows the user to create, browse, edit, and delete original drink recipes. Built in 2 weeks.
-  role: 
-    - Solo Developer
+  description: A web app that allows the user to create, browse, edit, and delete original drink recipes. Built in 2 weeks.
+  role: Solo Developer
   image: cocktailstile.png
   url: https://rails-cocktail-webapp.herokuapp.com/cocktails
   tags:
@@ -41,13 +32,11 @@
     - HTML 
     - SCSS
     - JavaScript
-    - Cloudinary
     - Heroku
 
 - name: Code From Home Tokyo
-  description: Code from Home Tokyo is a chat bot that checks the local weather and locates coding events in Tokyo. It integrates the AI technology of IBM Watson to discuss any image uploaded by the user. It even responds to questions and comments from the user.
-  role: 
-    - Solo Developer
+  description: A LINE chat bot that checks the local weather and locates coding events in Tokyo. It integrates IBM Watson to analyze images uploaded by the user and responds to questions and comments. Built in 2 hours.
+  role: Solo Developer
   image: linebottile.jpeg
   url: https://lin.ee/pzmqinhm
   tags:
@@ -56,21 +45,19 @@
     - Sinatra
     - Heroku
 
-- name: International Mental Health Professionals, Japan
-  description: As a board member, I took redesigned the decades-old International Mental Health Professionals Japan (IMHPJ) website to create a searchable database of therapists and used my SEO expertise to skyrocket the site’s ranking.
-  role: 
-    - Consultant
-    - Project Manager
+- name: IMHPJ
+  description: As a board member, I took redesigned the decades-old International Mental Health Professionals Japan (IMHPJ) website to create a searchable database of therapists and used my SEO expertise to skyrocket the search ranking.
+  role: Consultant
   image: imhpjtile.png
   url: http://www.imhpj.org/
   tags:
     - Consulting
     - Management
+    - Database
 
 - name: Icebreaker Randomizer
-  description: This web app alleviates Zoom fatigue through 75 original prompts. It is used in 6+ countries by leading NPOs, businesses, and educators. Built in 8 hours.
-  role: 
-    - Solo Developer
+  description: A web app that alleviates Zoom fatigue through 75 original prompts. Currently used in 6+ countries by leading NPOs, businesses, and educators. Built in 8 hours.
+  role: Solo Developer
   image: icebreakerrandomizertile.png
   url: https://worksofgenius.github.io/Icebreaker-Randomizer/
   tags:
@@ -80,33 +67,24 @@
     - GitHub Pages
 
 - name: Kitchen Cart
-  description: Kitchen Cart connects local communities and food trucks in a marketplace mobile web app. In development.
-  role: 
-    - Project Manager
-    - Frontend Developer
-  image: 
+  description: A mobile web app that connects local communities and food trucks. In development.
+  role: Project Manager
+  image: kitchencarttile.png
   url: 
   tags:
     - Rails
     - React
     - HTML 
     - SCSS
-    - JavaScript
-    - Mapbox API
-    - Google Maps API
     - Heroku
 
 - name: Kenko
-  description: Kenko helps users find medical care in Tokyo in an accessible mobile web app. In development.
-  role: 
-    - Project Manager
-    - Frontend Developer
-  image: 
+  description: A mobile web app that helps users find English-speaking clinics in Tokyo. In development.
+  role: Frontend Developer
+  image: kenkotile.png
   url: 
   tags:
     - Rails
-    - React
     - HTML 
     - SCSS
-    - Mapbox API
     - Heroku

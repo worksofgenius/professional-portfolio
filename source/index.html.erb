@@ -14,7 +14,7 @@
         <br><br>
         <h3>
           I'm an American fullstack developer, project manager, and writer based in Tokyo since 2009.<br><br>
-          <i class="fab fa-linkedin-in"></i><i class="fab fa-github"></i><i class="fab fa-wordpress-simple"></i>
+          <i class="fab fa-linkedin-in"></i> &nbsp; <i class="fab fa-github"></i> &nbsp; <i class="fab fa-wordpress-simple"></i>
         </h3>
       </div>
     </div>
@@ -27,16 +27,15 @@
           <div class="portfolio-card">
             <% data.products.each do |product| %>
               <div class="portfolioImage">
-                <%= product.image %>
-                <div onClick="window.open(url(<% product.url %>), '_blank')" class="middle">
-                  <p>View</p>
+                <%= image_tag(product.image) %>
+                <div onClick="window.open(link_to(<% product.url %>), '_blank')" class="middle">
+                  <h2>View</h2>
                 </div>
               </div>
               <div class="portfolioContent">
+                <h2 class="portfolioTitle"><b><%= product.name %></b></h2>
                 <h5 class="cardCategory"><%= product.role %></h5>
-                <h3 class="portfolioTitle"><%= product.name %></h3>
                 <p><%= product.description %></p>
-                <br><br>
                 <% product.tags.each do |tag| %>
                   <p class="tags"><%= tag %></p>
                 <% end %>
@@ -52,10 +51,10 @@
         <h1>Tech Stack</h1>
         <br>
         <h2>Front End</h2>
-        <p>HTML5 &nbsp; CSS3 &nbsp; JavaScript</p>
+        <p>HTML5 &nbsp; CSS3 &nbsp; JavaScript &nbsp; React</p>
         <br>
         <h2>Back End</h2>
-        <p>Ruby &nbsp; Rails &nbsp; React &nbsp; PostgreSQL &nbsp; Heroku &nbsp; Netlify</p>
+        <p>Ruby &nbsp; Rails &nbsp; PostgreSQL &nbsp; Heroku &nbsp; Netlify</p>
         <br>
         <h2>Other Tools</h2>
         <p>Git &nbsp; GitHub &nbsp; Figma &nbsp; Sketch &nbsp; WordPress</p>
