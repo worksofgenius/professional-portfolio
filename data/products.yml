@@ -1,5 +1,5 @@
 - name: Pantry
-  description: A mobile web app that empowers households to reduce food waste. Scan the barcode of a food item to save its name, amount, and expiration date. Save favorite recipes and manage shopping lists with LINE integration. Built in 2 weeks.
+  description: A mobile web app that empowers households to reduce food waste. Scan the barcode of a food item to save its name, amount, and expiration date. Save recipes and manage shopping lists with LINE integration. Built in 2 weeks.
   role: Project Manager
   image: pantrytile.png
   url: https://www.digitalpantry.me
@@ -35,7 +35,7 @@
     - Heroku
 
 - name: Code From Home Tokyo
-  description: A LINE chat bot that checks the local weather and locates coding events in Tokyo. It integrates IBM Watson to analyze images uploaded by the user and responds to questions and comments. Built in 2 hours.
+  description: A LINE chat bot that checks the local weather and shares coding events in Tokyo. It uses IBM Watson to analyze uploaded images uploaded and responds to questions and comments. Built in 2 hours.
   role: Solo Developer
   image: linebottile.jpeg
   url: https://lin.ee/pzmqinhm
@@ -46,7 +46,7 @@
     - Heroku
 
 - name: IMHPJ
-  description: As a board member, I took redesigned the decades-old International Mental Health Professionals Japan (IMHPJ) website to create a searchable database of therapists and used my SEO expertise to skyrocket the search ranking.
+  description: As a board member, I redesigned the decades-old International Mental Health Professionals Japan (IMHPJ) website as a searchable database of therapists and leveraged my SEO expertise to skyrocket the search ranking.
   role: Consultant
   image: imhpjtile.png
   url: http://www.imhpj.org/
