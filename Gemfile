@@ -7,7 +7,7 @@ gem 'middleman-metaman'
 gem 'rake'
 gem 'rubocop'
 
-gem 'font-awesome-sass', '~> 5.15.1'
+gem 'font-awesome-sass'
 
 group :test do
   gem 'capybara'

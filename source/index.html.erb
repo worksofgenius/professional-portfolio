@@ -11,33 +11,30 @@
       <%= image_tag("marisa.jpg", class: "avatar-large", alt: "Marisa N. Cassidy") %>
       <br><br>
       <h3>
-      I'm an American fullstack developer, project manager, and writer based in Tokyo since 2009.<br><br>
-      <i class="fab fa-linkedin-in"></i> &nbsp; <i class="fab fa-github"></i> &nbsp; <i class="fab fa-wordpress-simple"></i>
+        I'm an American fullstack developer, project manager, and writer based in Tokyo since 2009.<br><br>
+        <i class="fab fa-linkedin-in"></i> &nbsp; <i class="fab fa-github"></i> &nbsp; <i class="fab fa-wordpress-simple"></i>
       </h3>
     </div>
     <div class="projects-card">
       <h1>Projects</h1>
-      <br><br>
-      <div class="portfolio-container">
-        <div class="portfolio-card">
-          <% data.products.each do |product| %>
-            <div class="portfolioImage">
-              <%= image_tag(product.image) %>
-              <div onClick="window.open(link_to(<% product.url %>), '_blank')" class="middle">
-                <h2>View</h2>
-              </div>
-            </div>
-              <div class="portfolioContent">
-                <h2 class="portfolioTitle"><b><%= product.name %></b></h2>
-                <h5 class="cardCategory"><%= product.role %></h5>
-                <p><%= product.description %></p>
-                <% product.tags.each do |tag| %>
-                  <p class="tags"><%= tag %></p>
-                <% end %>
-              </div>
+      <br>
+        <% data.products.each do |product| %>
+      <div class="card">
+          <% link_to(product.url, target: "_blank") do %>
+            <%= image_tag(product.image, alt: "Project name", class: "project-image") %>
           <% end %>
+          <div class="cards-container">
+          <hr>
+            <h2><strong><%= product.name %></strong></h2>
+            <h5><%= product.role %></h5>
+            <p><%= product.description %></p>
+            <small class="text-muted"><% product.tags.each do |tag| %>
+              <%= tag %> &nbsp; 
+            <% end %></small>
           </div>
-        </div>
+      </div>
+        <% end %>
+      <br><br>
     </div>
     <div class="stack-card">
       <h1>Tech Stack</h1>
