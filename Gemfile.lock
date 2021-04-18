@@ -204,7 +204,7 @@ PLATFORMS
 DEPENDENCIES
   capybara
   cucumber
-  font-awesome-sass (~> 5.15.1)
+  font-awesome-sass
   middleman
   middleman-autoprefixer
   middleman-gh-pages
