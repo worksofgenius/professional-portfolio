@@ -13,8 +13,8 @@
 
     <title>Marisa N. Cassidy | Fullstack Developer | Portfolio</title>
     <meta charset=“utf-8” />
-    <meta name=“description” content=“Fullstack Developer and Project Manager based in Tokyo, Japan”>
-    <meta name=“keywords” content=“Marisa Cassidy,developer,Ruby on Rails,RoR,HTML,JavaScript,project manager”>
+    <meta name=“description” content=“Fullstack Developer and Project Manager based in Tokyo, Japan since 2009”>
+    <meta name=“keywords” content=“Marisa Cassidy,developer,Ruby on Rails,RoR,HTML,JavaScript,project manager,fullstack developer”>
     <meta name=“author” content=“Marisa Cassidy”>
     <!-- Comment this out when meta tags configured -->
     <%#= display_meta_tags %>
@@ -25,18 +25,12 @@
     <link rel="manifest" href="/site.webmanifest">
     <%= stylesheet_link_tag "app" %>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Raleway:300" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </header>
   <main>
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <%= yield %>
-          <%= javascript_include_tag "bundle" %>
-        </div>
-      </div>
-    </div>
+    <%= yield %>
+    <%= javascript_include_tag "bundle" %>
   </main>
   <footer>
     <div class="footer">
