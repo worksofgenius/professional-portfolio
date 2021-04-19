@@ -6,61 +6,78 @@
       <h2><s>Fullstack Developer &nbsp; Project Manager</s></h2>
     </div>
     <div class="about-card">
-      <h1>About</h1>
-      <br>
-      <%= image_tag("marisa.jpg", class: "avatar-large", alt: "Marisa N. Cassidy") %>
-      <br><br>
-      <h3>
-        I'm an American fullstack developer, project manager, and writer based in Tokyo since 2009.<br><br>
-        <a href="https://www.youtube.com/watch?v=Zl-D6htsWBA&list=WL&index=10&t=3649s" target="_blank">Watch my Pantry demo</a> at Le Wagon Tokyo's Demo Day in March 2001.
-        <br><br>
-        <a href="https://www.linkedin.com/in/marisancassidy/" target="_blank"><i class="fab fa-linkedin-in"></i></a> &nbsp; <a href="https://github.com/worksofgenius" target="_blank"><i class="fab fa-github"></i></a> &nbsp; <a href="http://worksofgenius.org/" target="_blank"><i class="fab fa-wordpress-simple"></i></a>
-      </h3>
+      <div class="row">
+        <div class="col-12">
+          <h1>About</h1>
+          <br>
+          <%= image_tag("marisa.jpg", class: "avatar-large", alt: "Marisa N. Cassidy") %>
+          <br><br>
+          <h3>
+            I'm an American fullstack developer, project manager, and writer based in Tokyo since 2009.<br><br>
+            <a href="https://www.youtube.com/watch?v=Zl-D6htsWBA&list=WL&index=10&t=3649s" target="_blank">Watch my Pantry demo</a> at Le Wagon Tokyo's Demo Day in March 2001.
+            <br><br>
+            <a href="https://www.linkedin.com/in/marisancassidy/" target="_blank"><i class="fab fa-linkedin-in"></i></a> &nbsp; <a href="https://github.com/worksofgenius" target="_blank"><i class="fab fa-github"></i></a> &nbsp; <a href="http://worksofgenius.org/" target="_blank"><i class="fab fa-wordpress-simple"></i></a>
+          </h3>
+        </div>
+      </div>
     </div>
     <div class="projects-card">
-      <h1>Projects</h1>
-      <br>
-        <% data.products.each do |product| %>
-      <div class="card">
-          <% link_to(product.url, target: "_blank") do %>
-            <%= image_tag(product.image, alt: "Project name", class: "project-image") %>
-          <% end %>
+      <div class="row">
+        <div class="col-12">
+        <br>
+          <h1>Projects</h1>
+          <br>
+            <% data.products.each do |product| %>
+          <div class="card">
+            <% link_to(product.url, target: "_blank") do %>
+              <%= image_tag(product.image, alt: "Project name", class: "project-image") %>
+            <% end %>
           <div class="cards-container">
-          <hr>
+            <hr>
             <h2><strong><%= product.name %></strong></h2>
-            <h5><%= product.role %></h5>
-            <p><%= product.description %></p>
-            <small class="text-muted"><% product.tags.each do |tag| %>
-              <%= tag %> &nbsp; 
-            <% end %></small>
+              <h5 class="role"><%= product.role %></h5>
+              <p><%= product.description %></p>
+              <small class="text-muted"><% product.tags.each do |tag| %>
+                  <%= tag %> &nbsp; 
+                <% end %></small>
+              </div>
           </div>
+            <% end %>
+          <br><br>
+        </div>
       </div>
-        <% end %>
-      <br><br>
     </div>
     <div class="stack-card">
-      <h1>Tech Stack</h1>
-      <br>
-      <h2>Front End</h2>
-      <h5 class="cardCategory">HTML5 &nbsp; CSS3 &nbsp; JavaScript &nbsp; React</h5>
-      <br>
-      <h2>Back End</h2>
-      <h5 class="cardCategory">Ruby &nbsp; Rails &nbsp; PostgreSQL &nbsp; Heroku &nbsp; Netlify</h5>
-      <br>
-      <h2>Other Tools</h2>
-      <h5 class="cardCategory">Git &nbsp; GitHub &nbsp; Figma &nbsp; Sketch &nbsp; WordPress</h5>
+      <div class="row">
+        <div class="col-12">
+          <h1>Tech Stack</h1>
+          <br>
+          <h2>Front End</h2>
+          <p class="cardCategory">HTML5 &nbsp; CSS3 &nbsp; JavaScript &nbsp; React</p>
+          <br>
+          <h2>Back End</h2>
+          <p class="cardCategory">Ruby &nbsp; Rails &nbsp; PostgreSQL &nbsp; Heroku &nbsp; Netlify</p>
+          <br>
+          <h2>Other Tools</h2>
+          <p class="cardCategory">Git &nbsp; GitHub &nbsp; Figma &nbsp; Sketch &nbsp; WordPress</p>
+        </div>
+      </div>
     </div>
     <div class="contact-card">
-      <h1>Contact</h1>
-      <br>
-      <h2>Let's work together.</h2>
-      <br>
-      <form name="contact" netlify>
-        <p><label>Name<br><input type="text" name="name" /></label></p>
-        <p><label>Email<br><input type="email" name="email" /></label></p>
-        <p><label>Message<br><textarea name="message"></textarea></label></p>
-        <p><button type="submit">Submit</button></p>
-      </form>
+      <div class="row">
+        <div class="col-12">
+          <h1>Contact</h1>
+          <br>
+          <h2>Let's work together.</h2>
+          <br>
+          <form name="contact" netlify>
+            <p><label>Name<br><input type="text" name="name" /></label></p>
+            <p><label>Email<br><input type="email" name="email" /></label></p>
+            <p><label>Message<br><textarea name="message"></textarea></label></p>
+            <p><button type="submit">Submit</button></p>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
 </div>

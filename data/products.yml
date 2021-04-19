@@ -38,7 +38,7 @@
   description: A LINE chat bot that checks the local weather and locates coding events in Tokyo. It integrates IBM Watson to analyze images uploaded by the user and responds to questions and comments. Built in 2 hours.
   role: Solo Developer
   image: linebottile.jpeg
-  url: https://lin.ee/pzmqinhm
+  url:
   tags:
     - LINE API
     - IBM Watson
