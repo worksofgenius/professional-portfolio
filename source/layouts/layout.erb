@@ -2,7 +2,14 @@
 <html lang="en">
   <header>
     <!-- INSERT GOOGLE ANALYTICS HERE -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G24BR7YS38"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-G24BR7YS38');
+    </script>
 
     <meta charset="utf-8">
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
@@ -13,7 +20,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Marisa N. Cassidy | Fullstack Developer | Portfolio</title>
-    <meta charset=“utf-8” />
     <meta name=“description” content=“Fullstack Developer and Project Manager based in Tokyo, Japan since 2009”>
     <meta name=“keywords” content=“Marisa Cassidy,developer,Ruby on Rails,RoR,HTML,JavaScript,project manager,fullstack developer”>
     <meta name=“author” content=“Marisa Cassidy”>
@@ -25,9 +31,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <%= stylesheet_link_tag "app" %>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Raleway:300" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
   </header>
   <main>
     <%= yield %>
