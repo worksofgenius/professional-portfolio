@@ -1,7 +1,7 @@
 /* General Styles */
 
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "Frank Ruhl Libre", sans-serif;
   font-weight: 300;
   background-color: white;
   word-wrap: break-word;
@@ -11,7 +11,7 @@ body {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 26px;
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -20,7 +20,7 @@ p {
 
 h1 {
   color: black;
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   justify-content: center;
 }
@@ -28,6 +28,7 @@ h1 {
 h2, h3, h4, h5, h6 {
   color: $gray;
   font-family: 'Raleway', sans-serif;
+  hyphens: auto;
 }
 
 a {
