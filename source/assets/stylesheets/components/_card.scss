@@ -12,10 +12,6 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.09);
 }
 
-.about-card h3 {
-  padding: 0 175px;
-}
-
 .projects-card {
   text-align: center;
   padding: 5rem 3rem;
@@ -23,13 +19,18 @@
   position: relative;
   max-width: 100%;
   border-radius: 50% 20% / 10% 40%;
-  margin: 50px;
+  margin: 110px;
   border: 0;
   font-size: 100%;
   background: #ffdead;
   box-shadow: 0 0 15px rgba(0,0,0,0.09);
 }
-/* background: #FFF7EB; */
+
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
 
 .stack-card {
   text-align: center;
@@ -42,7 +43,6 @@
   border: 0;
   font-size: 100%;
   background: #ffce85;
-  /* background: #ffefd6; */
   box-shadow: 0 0 15px rgba(0,0,0,0.09);
 }
 

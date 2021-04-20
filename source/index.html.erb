@@ -17,7 +17,7 @@
             <a href="https://www.youtube.com/watch?v=Zl-D6htsWBA&list=WL&index=10&t=3649s" target="_blank">Watch my Pantry demo</a> at Le Wagon Tokyo's Demo Day in March 2001.
             <br><br>
           </h3>
-          <h1><a href="https://www.linkedin.com/in/marisancassidy/" target="_blank"><i class="fab fa-linkedin-in"></i></a> &nbsp; <a href="https://github.com/worksofgenius" target="_blank"><i class="fab fa-github"></i></a> &nbsp; <a href="http://worksofgenius.org/" target="_blank"><i class="fab fa-wordpress-simple"></i></a></h1>
+          <h2><a href="https://www.linkedin.com/in/marisancassidy/" target="_blank"><i class="fab fa-linkedin-in"></i></a> &nbsp; <a href="https://github.com/worksofgenius" target="_blank"><i class="fab fa-github"></i></a> &nbsp; <a href="http://worksofgenius.org/" target="_blank"><i class="fab fa-wordpress-simple"></i></a></h2>
         </div>
       </div>
     </div>
@@ -36,7 +36,7 @@
             <hr>
             <h2><strong><%= product.name %></strong></h2>
               <h5 class="role"><%= product.role %></h5>
-              <p><%= product.description %></p>
+              <p class="hidden-mobile"><%= product.description %></p>
               <small class="text-muted"><% product.tags.each do |tag| %>
                   <%= tag %> &nbsp; 
                 <% end %></small>
@@ -53,13 +53,13 @@
           <h1>Tech Stack</h1>
           <br>
           <h2>Front End</h2>
-          <p class="cardCategory">HTML5 &nbsp; CSS3 &nbsp; JavaScript &nbsp; React</p>
+          <h5 class="cardCategory">HTML5 &nbsp; CSS3 &nbsp; JavaScript &nbsp; React</h5>
           <br>
           <h2>Back End</h2>
-          <p class="cardCategory">Ruby &nbsp; Rails &nbsp; PostgreSQL &nbsp; Heroku &nbsp; Netlify</p>
+          <h5 class="cardCategory">Ruby &nbsp; Rails &nbsp; PostgreSQL &nbsp; Heroku &nbsp; Netlify</h5>
           <br>
           <h2>Other Tools</h2>
-          <p class="cardCategory">Git &nbsp; GitHub &nbsp; Figma &nbsp; Sketch &nbsp; WordPress</p>
+          <h5 class="cardCategory">Git &nbsp; GitHub &nbsp; Figma &nbsp; Sketch &nbsp; WordPress</h5>
         </div>
       </div>
     </div>
