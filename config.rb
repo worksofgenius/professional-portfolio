@@ -40,4 +40,9 @@ configure :build do
   activate :gzip
   activate :minify_css
   activate :relative_assets
+  activate :i18n,
+    :mount_at_root => 'en',
+    :lang_map => { :'en' => 'en', :'es' => 'es', :'ja' => 'ja' },
+    :path => '/'
 end
+
