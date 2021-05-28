@@ -15,6 +15,8 @@ Feel free to contact me using the contact form.
 It was created with:
 * [Middleman](https://middlemanapp.com/)
 * Ruby on Rails 6.0
+* JavaScript
+* Gherkin
 * HTML/SCSS
 * Netlify
 	
