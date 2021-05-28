@@ -1,5 +1,6 @@
 
 # Professional Portfolio
+<img src="https://github.com/worksofgenius/professional-portfolio/blob/main/portfolio-screenshot.png" height="50%" width="50%">
 
 ## Table of contents
 * [General info](#general-info)
