@@ -1,6 +1,6 @@
 - name: Pantry
   description: A mobile web app that empowers households to reduce food waste. Scan the barcode of a food item to save its name, amount, and expiration date. Save favorite recipes and manage shopping lists with LINE integration. Built in 2 weeks.
-  role: Project Manager
+  role: Founder・Fullstack Developer
   image: pantrytile.png
   url: https://www.digitalpantry.me
   tags:
@@ -12,7 +12,7 @@
 
 - name: Share Care
   description: A mobile web app that allows parents to enrich their child’s life with highly skilled caregivers. Built in 2 weeks.
-  role: Project Manager
+  role: Fullstack Developer
   image: sharecaretile.png
   url: https://sharecarejapan.herokuapp.com/
   tags:
@@ -68,7 +68,7 @@
 
 - name: Kitchen Cart
   description: A mobile web app that connects local communities and food trucks. In development.
-  role: Project Manager
+  role: Frontend Developer
   image: kitchencarttile.png
   url: 
   tags:
@@ -88,3 +88,14 @@
     - HTML 
     - SCSS
     - Heroku
+
+- name: Ad Libs
+  description: Choose a noun, verb, or adjective to write like Kerouac. Built in 20 minutes.
+  role: Solo Developer
+  image: adlibstile.png
+  url: https://worksofgenius.github.io/ad-libs/
+  tags:
+    - JavaScript
+    - HTML
+    - CSS
+    - GitHub Pages
